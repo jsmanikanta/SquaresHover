@@ -1,0 +1,50 @@
+/*Universal Selector*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.shape{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#circle{
+    border-radius: 50%;
+}
+#rhombus{
+    rotate: 45deg;
+    margin-top: 50px;
+}
+#rhombus h1{
+    rotate: -45deg;
+}
+#circle:hover{
+    background-color: blue;
+}
+#square:hover{
+    background-color: red;
+}
+#rhombus:hover{
+    background-color: green;
+}
+h1{
+    text-align: center;
+}
